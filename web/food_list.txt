@@ -1,0 +1,34 @@
+China:
+Peking Duck
+Kung Pao Chicken
+Dim Sum (Assorted Dumplings)
+
+United States:
+Hamburger
+BBQ Ribs
+Hot Dogs
+
+Italy:
+Pizza
+Pasta
+Italian-style Steak
+
+France:
+Foie Gras
+Escargot
+Coq au Vin
+
+Japan:
+Sushi
+Ramen
+Wagyu Beef
+
+Mexico:
+Tacos
+Guacamole
+Quesadillas
+
+Thailand:
+Green Curry
+Tom Yum Soup
+Thai Papaya Salad

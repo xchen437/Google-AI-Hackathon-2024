@@ -4,32 +4,123 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Baking with the Gemini API</title>
+  <title>Baking World's Famous Food with Gemini API</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
   <main>
-    <h1>Baking with the Gemini API</h1>
+    <h1>Baking world's famous food with the Gemini API!!!</h1>
     <form>
       <div class="image-picker">
         <label class="image-choice">
-          <input type="radio" checked name="chosen-image" value="/baked_goods_1.jpg">
-          <img src="/baked_goods_1.jpg">
+          <input type="radio" name="chosen-image" value="resource/baked_goods_3.jpg">
+          <img src="resource/baked_goods_3.jpg">
         </label>
         <label class="image-choice">
-          <input type="radio" name="chosen-image" value="/baked_goods_2.jpg">
-          <img src="/baked_goods_2.jpg">
+          <input type="radio" checked name="chosen-image" value="resource/BBQ_Ribs.jpeg">
+          <img src="resource/BBQ_Ribs.jpeg">
         </label>
         <label class="image-choice">
-          <input type="radio" name="chosen-image" value="/baked_goods_3.jpg">
-          <img src="/baked_goods_3.jpg">
+          <input type="radio" checked name="chosen-image" value="resource/Coq au Vin.jpeg">
+          <img src="resource/Coq au Vin.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Dim Sum.jpeg">
+          <img src="resource/Dim Sum.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Escargot.jpeg">
+          <img src="resource/Escargot.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Foie Gras.jpeg">
+          <img src="resource/Foie Gras.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Green Curry.jpeg">
+          <img src="resource/Green Curry.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Guacamole.jpeg">
+          <img src="resource/Guacamole.jpeg">
         </label>
       </div>
+
+      <div class="image-picker">
+        <label class="image-choice">
+          <input type="radio" name="chosen-image" value="resource/baked_goods_2.jpg">
+          <img src="resource/baked_goods_2.jpg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Hamburger.jpeg">
+          <img src="resource/Hamburger.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Hot Dogs.jpeg">
+          <img src="resource/Hot Dogs.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Italian-style Steak.jpeg">
+          <img src="resource/Italian-style Steak.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Kung Pao Chicken.jpeg">
+          <img src="resource/Kung Pao Chicken.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Pasta.jpeg">
+          <img src="resource/Pasta.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Peking Duck.jpeg">
+          <img src="resource/Peking Duck.jpeg">
+        </label>
+        <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/Pizza.jpeg">
+          <img src="resource/Pizza.jpeg">
+        </label>
+      </div>
+
+      <div class="image-picker">
+      <label class="image-choice">
+          <input type="radio" checked name="chosen-image" value="resource/baked_goods_1.jpg">
+          <img src="resource/baked_goods_1.jpg">
+      </label>
+      <label class="image-choice">
+        <input type="radio" checked name="chosen-image" value="resource/Quesadillas.jpeg">
+        <img src="resource/Quesadillas.jpeg">
+      </label>
+      <label class="image-choice">
+        <input type="radio" checked name="chosen-image" value="resource/Ramen.jpeg">
+        <img src="resource/Ramen.jpeg">
+      </label>
+      <label class="image-choice">
+        <input type="radio" checked name="chosen-image" value="resource/Sushi.jpeg">
+        <img src="resource/Sushi.jpeg">
+      </label>
+      <label class="image-choice">
+        <input type="radio" checked name="chosen-image" value="resource/Tacos.jpeg">
+        <img src="resource/Tacos.jpeg">
+      </label>
+      <label class="image-choice">
+        <input type="radio" checked name="chosen-image" value="resource/Thai Papaya Salad.jpeg">
+        <img src="resource/Thai Papaya Salad.jpeg">
+      </label>
+      <label class="image-choice">
+        <input type="radio" checked name="chosen-image" value="resource/Tom Yum Soup.jpeg">
+        <img src="resource/Tom Yum Soup.jpeg">
+      </label>
+      <label class="image-choice">
+        <input type="radio" checked name="chosen-image" value="resource/Wagyu Beef.jpeg">
+        <img src="resource/Wagyu Beef.jpeg">
+      </label>
+      </div>
+
       <div class="prompt-box">
         <label>
           <input name="prompt" placeholder="Enter instructions here" type="text"
-            value="Provide a recipe for the baked goods in the image">
+            value="Introduce the food and provide a recipe for the baked goods in the image">
         </label>
         <button type="submit">Go</button>
       </div>
