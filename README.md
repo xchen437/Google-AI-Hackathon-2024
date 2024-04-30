@@ -4,7 +4,7 @@ link: https://googleai.devpost.com/
 
 ## Overview
 
-We built a creative app that uses Google’s Generative AI tools with Gemini!
+We built a creative baking app that uses Google’s Generative AI tools with Gemini!
 
 URL to the code repository for judging and testing: https://github.com/xchen437/Google-AI-Hackathon-2024
 
@@ -23,6 +23,9 @@ conda activate google_ai_hackathon
 
 pip install -r requirements.txt
 ```
+
+### Get an API key
+get at https://g.co/ai/idxGetGeminiKey and replace `TODO` in [main.py](https://github.com/xchen437/Google-AI-Hackathon-2024/blob/main/main.py#L11)
 
 ### Run Flask app
 ```

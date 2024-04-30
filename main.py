@@ -30,7 +30,10 @@ def generate_api():
         try:
             req_body = request.get_json()
             content = req_body.get("contents")
-            model = ChatGoogleGenerativeAI(model=req_body.get("model"))
+            model = ChatGoogleGenerativeAI(
+                model=req_body.get("model"),
+                temperature=0.0,
+            )
             message = HumanMessage(
                 content=content
             )
