@@ -8,7 +8,7 @@ We built a creative AI Chef Companion app that uses Google’s Generative AI too
 
 URL to the code repository for judging and testing: https://github.com/xchen437/Google-AI-Hackathon-2024
 
-Video that demonstrates our submission: https://youtu.be/qzuQGhIkUFg
+Video that demonstrates our submission: https://youtu.be/_nDxEl2YqOk
 
 Google Cloud Project ID: `gen-lang-client-0061443663`
 
