@@ -14,6 +14,10 @@ Google Cloud Project ID: `gen-lang-client-0061443663`
 
 Gemini API that we are using: Google AI, ChatGoogleGenerativeAI API, gemini-pro-vision model
 
+App preview
+
+<img width="999" alt="Screenshot 2024-04-29 at 8 54 10 PM" src="https://github.com/xchen437/Google-AI-Hackathon-2024/assets/18489029/5f4c1069-05d2-4502-a299-7da37e29e4de">
+
 ## Runbook
 ### Create virtual env
 ```
